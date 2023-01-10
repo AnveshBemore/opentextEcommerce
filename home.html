@@ -3,46 +3,53 @@
     <head>
         <title>Opentext Ecommerce</title>
         <link rel="stylesheet" href="home.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     </head>
+
+
+
     <body onload="slideImg()">
         <div id="header">
-            <div id="logo" class="header_elements">
-                <span id="opentext_name">Opentext</span>
+            <div id="logo" class="header_elements">         
+                <a href="home.html"><span id="opentext_name">Opentext</span></a>
             </div>
                 <input type="text" id="search_bar">
                 <img src="https://cdn.pixabay.com/photo/2014/04/02/10/18/magnifying-glass-303408_960_720.png" alt="" id="search_img">
             
-            <div id="login"><span>Login</span></div>
-            <div id="cart">
-                <img src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_960_720.png" alt="cart" id="cart_img">
-                <span id="cart_count">0</span>
-            </div>
+            <div id="login" ><a href="login.html">login</a></div>
+            <a href="cartProducts.html">
+                <div id="cart">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_960_720.png" alt="cart" id="cart_img">
+                    <span id="cart_count">0</span>
+                </div>
+            </a>
         </div>
-
 
         
 
+
         <div id="product_types">
             <div class="product_section_frame">
-                <img src="https://cdn.pixabay.com/photo/2014/02/13/07/28/security-265130_960_720.jpg" alt="security" id="security_img" class="product_section_img">
+                <img src="" class="product_section_img">
                 <br>
-                <span class="product_section_name" id="security_text">Security</span>
+                <span class="product_section_name" id="security_text"></span>
 
             </div>
 
 
             <div class="product_section_frame">
-                <img src="https://media.istockphoto.com/id/1342627391/vector/cloud-database-function-line-icon-cloud-with-server-rack-symbol.jpg?s=612x612&w=is&k=20&c=zZPW7bTbMeikrwoxETX4eC_SXFajYV1i82zDKMPK6ts=" alt="security" class="product_section_img">
+                <img src="" alt="security" class="product_section_img">
                 <br>
-                <span class="product_section_name">Cloud Services</span>
+                <span class="product_section_name"></span>
 
             </div>
 
             
             <div class="product_section_frame">
-                <img src="https://img.freepik.com/free-vector/customer-support-flat-illustration_23-2148889375.jpg?w=2000" alt="security" class="product_section_img">
+                <img src="" alt="security" class="product_section_img">
                 <br>
-                <span class="product_section_name">Product Services</span>
+                <span class="product_section_name"></span>
 
             </div>
         </div>
@@ -52,15 +59,15 @@
         <div id="images_slide">
 
             <div class="images_frame">
-                <img src="https://www.opentext.com/gwot/img/Ultimate-Cloud-3.png" alt="" class="slide_img" id="img1" >
+                <img src="" alt="" class="slide_img"  >
             </div>
             
             <div class="images_frame">
-                <img src="https://play.vidyard.com/qY9xWF4FkFLMxRaz6XWzti.jpg" alt="" class="slide_img" id="img1" >
+                <img src="" alt="" class="slide_img"  >
             </div>
             
             <div class="images_frame">
-                <img src="https://play.vidyard.com/jZtWGiBpMyVXcACWuAv2mv.jpg " alt="" class="slide_img" id="img1" >
+                <img src="" alt="" class="slide_img"  >
             </div>
         </div>
 
@@ -72,40 +79,112 @@
 
         <div id="products_frame">
             <div class="product_frame">
-                 <img src="https://www.carbonite.com/globalassets/images/graphics/carb-ot-co-plus.svg" alt="" class="product_img">
+                 <img src="" alt="" class="product_img">
                <br>
-                <span class="product_name">Carbonite</span>
+                <span class="product_name"></span>
                 <br>
-                <span class="product_price">&#8377 10000</span>
+                &#8377;<span class="product_price"></span>
                 <br>
-                <button class="add_to_cart">Add To Cart</button>
+                <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
             </div>
 
             <div class="product_frame">
-                <img src="https://www.sap.com/dam/site/sapcom/multimedia/2020/06/aafe94a2-9c7d-0010-87a3-c30de2ffd8ff.mp4/_jcr_content/renditions/cq5dam.thumbnail.1280.720.jpg" alt="" class="product_img">
+                <img src="" alt="" class="product_img">
               <br>
-               <span class="product_name">execm</span>
+               <span class="product_name"></span>
                <br>
-               <span class="product_price">&#8377 10000</span>
+               &#8377;<span class="product_price"></span>
                <br>
-               <button class="add_to_cart">Add To Cart</button>
+               <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
            </div>
           
 
             
            <div class="product_frame">
-            <img src=" https://w7.pngwing.com/pngs/570/232/png-transparent-cloud-computing-opentext-enterprise-information-management-cloud-storage-cloud-computing-blue-text-logo.png" alt="" class="product_img">
-          <br>
-           <span class="product_name">execm</span>
-           <br>
-           <span class="product_price">&#8377 10000</span>
-           <br>
-           <button class="add_to_cart">Add To Cart</button>
-       </div>
+                <img src="" alt="" class="product_img">
+                <br>
+                <span class="product_name"></span>
+                <br>
+                &#8377;<span class="product_price"></span>
+                <br>
+                <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+          
+          <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+
+
+        </div>
+        <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+
+
+        </div>
+        <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+
+
+        </div>
+        
+        <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
 
 
         </div>
 
+        <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+
+
+        </div>
+
+        <div class="product_frame">
+            <img src="" alt="" class="product_img">
+            <br>
+            <span class="product_name"></span>
+            <br>
+            &#8377;<span class="product_price"></span>
+            <br>
+            <button class="add_to_cart"  onclick="addToCart(this) ">Add To Cart</button>
+          </div>
+
+
+        </div>
         <Script src="home.js"></Script>
 
     </body>

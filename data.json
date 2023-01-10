@@ -1,0 +1,73 @@
+{
+    "product_section_img":["https://cdn.pixabay.com/photo/2014/02/13/07/28/security-265130_960_720.jpg","https://media.istockphoto.com/id/1342627391/vector/cloud-database-function-line-icon-cloud-with-server-rack-symbol.jpg?s=612x612&w=is&k=20&c=zZPW7bTbMeikrwoxETX4eC_SXFajYV1i82zDKMPK6ts=","https://img.freepik.com/free-vector/customer-support-flat-illustration_23-2148889375.jpg?w=2000"],
+   
+    "product_section_name":["Security","Cloud Services","Product Services"],
+   
+    "slide_img":["https://www.opentext.com/gwot/img/Ultimate-Cloud-3.png","https://play.vidyard.com/qY9xWF4FkFLMxRaz6XWzti.jpg","https://play.vidyard.com/jZtWGiBpMyVXcACWuAv2mv.jpg"],
+
+    "product_img":["https://www.carbonite.com/globalassets/images/graphics/carb-ot-co-plus.svg","https://www.sap.com/dam/site/sapcom/multimedia/2020/06/aafe94a2-9c7d-0010-87a3-c30de2ffd8ff.mp4/_jcr_content/renditions/cq5dam.thumbnail.1280.720.jpg"
+    ," https://w7.pngwing.com/pngs/570/232/png-transparent-cloud-computing-opentext-enterprise-information-management-cloud-storage-cloud-computing-blue-text-logo.png"
+    ,"https://cyberogism.com/wp-content/uploads/2019/03/591213bfae653a09ce21ad76-1-300x279.jpg",
+    "https://connectoricons-prod.azureedge.net/releases/v1.0.1608/1.0.1608.3079/opentextcoreshare/icon.png",
+"https://media.trustradius.com/product-logos/QL/Hr/59RE5ON7FC4N.PNG"
+,"https://www.threatblockr.com/wp-content/uploads/ThreatBlockr-Blog-BrightCloud-Threat-Report-Featured-Image.jpg"
+,"https://www.opentext.com/assets/images/resources/customer-success/tora-logo-240x128.jpg"
+,"https://images.squarespace-cdn.com/content/v1/555510e6e4b0ecb85ccf4059/0e0ab5a7-71b2-418a-96b9-3bf0da629486/OpenText+AppWorks+Cover+Photo.PNG?format=1000w"],
+
+    "product_name":["Carbonite","Execm","Cloud Services","Webroot","Core Share","Hightail","Bright Tail","Tora","AppWorks"],
+
+    "product_price":["&#8377 10000","&#8377 10000","&#8377 10000","&#8377 10000","&#8377 20000","&#8377 20000","&#8377 30000","&#8377 30000","&#8377 20000"],
+
+    "products":[
+        {
+            "product_name":"Carbonite",
+            "product_img":"https://www.carbonite.com/globalassets/images/graphics/carb-ot-co-plus.svg",
+            "product_price":"10000"
+
+        },
+        {
+            "product_name":"Execm",
+            "product_img":"https://www.sap.com/dam/site/sapcom/multimedia/2020/06/aafe94a2-9c7d-0010-87a3-c30de2ffd8ff.mp4/_jcr_content/renditions/cq5dam.thumbnail.1280.720.jpg",
+            "product_price":"10000"
+        },
+        {
+            "product_name":"Cloud Services",
+            "product_img":"https://w7.pngwing.com/pngs/570/232/png-transparent-cloud-computing-opentext-enterprise-information-management-cloud-storage-cloud-computing-blue-text-logo.png",
+            "product_price":"10000"
+        },
+        {
+            "product_name":"Webroot",
+            "product_img":"https://cyberogism.com/wp-content/uploads/2019/03/591213bfae653a09ce21ad76-1-300x279.jpg",
+            "product_price":"10000"
+        },
+        {
+            "product_name":"Core Share",
+            "product_img":"https://connectoricons-prod.azureedge.net/releases/v1.0.1608/1.0.1608.3079/opentextcoreshare/icon.png",
+            "product_price":"20000"
+        },
+        {
+            "product_name":"Hightail",
+            "product_img":"https://media.trustradius.com/product-logos/QL/Hr/59RE5ON7FC4N.PNG",
+            "product_price":"20000"
+        },
+        {
+            "product_name":"Bright Tail",
+            "product_img":"https://www.threatblockr.com/wp-content/uploads/ThreatBlockr-Blog-BrightCloud-Threat-Report-Featured-Image.jpg",
+            "product_price":"30000"
+        },
+        {
+            "product_name":"Tora",
+            "product_img":"https://www.opentext.com/assets/images/resources/customer-success/tora-logo-240x128.jpg",
+            "product_price":"30000"
+        },
+        {
+            "product_name":"AppWorks",
+            "product_img":"https://images.squarespace-cdn.com/content/v1/555510e6e4b0ecb85ccf4059/0e0ab5a7-71b2-418a-96b9-3bf0da629486/OpenText+AppWorks+Cover+Photo.PNG?format=1000w",
+            "product_price":"20000"
+        }
+
+        
+    ]
+
+}
+

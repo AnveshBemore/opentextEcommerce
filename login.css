@@ -1,0 +1,33 @@
+*{
+    background-color: #252E71;
+    margin: 0px;
+}
+#wholePage{
+    /* background-image: url("https://www.yourtechstory.com/wp-content/uploads/2021/09/123333.jpg") ; */
+    width: 55vw;
+    height: 60vh;
+    margin-top: 10%;
+}
+#login_frame{
+    display: inline-block;
+    position:fixed;
+    margin-top: 300px;
+    font-size: 40px;
+    color: white;
+}
+input{
+    border-radius: 100px;
+    border: 1.5px solid white;
+    width: 160px;
+    height: 20px;
+}
+#submit{
+    margin-left: 150px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+#submit:hover{
+    background-color: white;
+    color: #252E71;
+}
